@@ -1,0 +1,55 @@
+in sts -- create a package,class
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+p.s.v.m(){
+try{
+//s.1 Register the Driver
+Class.forName("org.postgresql.Driver");
+//s.2: Connection
+//s.3: PreparedStatement
+
+---After writing the code
+---open Postgres
+
+give password
+click on servers
+employees
+create
+========================================
+class link:
+https://novelvista-my.sharepoint.com/:v:/p/jee_full_stack_2_0_react_js_22_dec22_batch/EalnJ1IHRhxLtjqT9WWGcT0BLCN-ThPCMlzq3D1ErWPTuw
+
+samplegrdleapp
+setting.gradle
+library.java
+build.gradle
+mvnrepository link.....
+(copy the link and paste it 
+https://mvnrepository.com/artifact/org.postgresql/postgresql/42.4.3
+
+Run as 
+Gradle
+it will synchronized and download the jar file.
+===========================================
+class link(afternoon session)
+
+https://novelvista-my.sharepoint.com/:v:/p/jee_full_stack_2_0_react_js_22_dec22_batch/ERZ4Lv6rOMdBjWaT71oOnHIBP3Y8HjxgyKm2L2T-SbvUmQ
+
+https://docs.google.com/document/d/1Pyzc6qYzLs0IDyNHVFH1zz0TCo3A0E5J662FfvqqzOg/edit
+
+https://docs.google.com/document/d/1ve3wIctJwFavL8xT_RWFNlnPdeCl2qFfkNZckToZ5Bo/edit
+
+
+----------------------------------------------------------------------
+18-01-2023(class)
+https://novelvista-my.sharepoint.com/:v:/p/jee_full_stack_2_0_react_js_22_dec22_batch/EcpXM_vfLF5DraN4g_IdPkYBGPytA4hKPMuhIdpH920DBQ?email=savita.magadum%40novelvista.com
+
+https://novelvista-my.sharepoint.com/:v:/p/jee_full_stack_2_0_react_js_22_dec22_batch/EQCPFQ9XmjNBh4RDEhtDyG4BHti3mMnbLqceO3WAaSuHlg
+
+-----------------------------------------------------------------------
+gradle steps:
+
+https://docs.google.com/document/d/1Pyzc6qYzLs0IDyNHVFH1zz0TCo3A0E5J662FfvqqzOg/edit

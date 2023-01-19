@@ -1,0 +1,5 @@
+package hibernateexamplesusingjavaconfig.entity;
+
+public class Employee {
+
+}

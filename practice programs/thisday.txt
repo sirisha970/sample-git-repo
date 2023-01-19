@@ -1,0 +1,55 @@
+Strings
+Arrays
+Collections
+StringAPI
+Exception Handling
+
+
+package something
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class SumArrayList{
+
+          //create an array list
+          ArrayList<Integer> intArrList=new ArrayList<Integer>();
+          Scanner sc=new Scanner(System.in);
+          int n=0;
+          public void readArrayListValue(){
+                     System.out.println("enter arraylist size");
+                     n=sc.nextInt();
+                     System.out.println("enter arraylist values");
+                     for(int i=0;i<n;i++){
+                         System.out.println("enter arraylist"+i+"value");
+                         intArrList.add(sc.nextInt());
+                     }
+           }
+           Iterator<Integer> it=intArrList.iterator();
+           int sum=0;
+           public void sumArrayListValues(){
+               while(itr.hasNext()){
+                     int num=it.next()
+                     if(num>10){
+                               sum+=num;
+                     }
+           }
+
+
+
+[16:00] Trainer
+Hands on Array
+======================
+Write a Java program to merge two unsorted arrays of differnt lengths?
+write a Java program to remove an element by taking an index from the user?
+Write  a Java Program to count number of duplicated values in
+a) integer array
+b) char array (create the char array in lower case)
+Write a Java Program to find sum of numbers 
+a) even index
+b) odd index
+Write a program to print array elements in the reverse order using swapping method?
+Hint: take even number array
+input: 20 30 40 50 60 70
+output: 70 60 50 40 30 20
+

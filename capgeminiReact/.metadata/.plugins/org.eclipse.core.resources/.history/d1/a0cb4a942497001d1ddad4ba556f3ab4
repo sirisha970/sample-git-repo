@@ -1,0 +1,5 @@
+package hibernateusingjavaconfig.entity;
+
+public class Employee {
+
+}

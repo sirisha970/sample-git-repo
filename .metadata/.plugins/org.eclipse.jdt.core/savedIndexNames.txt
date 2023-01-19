@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Capgemini react 2022\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3994732915.index
+3262560955.index
+1289063933.index
+1584920854.index

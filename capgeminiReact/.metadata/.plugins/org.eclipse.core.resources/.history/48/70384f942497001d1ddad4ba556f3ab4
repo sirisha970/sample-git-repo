@@ -1,0 +1,5 @@
+package hibernateusingjavaconfig.config;
+
+public class HibernateUtil {
+
+}

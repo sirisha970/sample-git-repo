@@ -1,0 +1,50 @@
+package hibernateexampleusingjavaconfig;
+
+import java.util.List;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import hibernateexampleusingjavaconfig.config.HibernateUtil;
+import hibernateexampleusingjavaconfig.entity.Employee;
+
+
+public class TestHibernateCode {
+
+	public static void main(String[] args) {
+		Transaction transaction = null;
+		Session dbSession = null;
+		try {
+			dbSession = HibernateUtil.getSessionFactory().openSession();
+			transaction = dbSession.beginTransaction();
+			//create emp object
+			Employee emp = new Employee(454353L,"Rajashekar", "raj@gmail.com");
+			//save the object in the db
+			dbSession.save(emp);
+			//commit the transaction
+			transaction.commit();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			
+		}
+		
+		//list all the employees
+		try {
+			Session dbSession1 = HibernateUtil.getSessionFactory().openSession();
+			//start the transaction
+			transaction = dbSession1.beginTransaction();
+			//select * from student;
+			List<Employee> empList = dbSession.createQuery("from Employee").list();
+			System.out.println("=====================================");
+			System.out.println("employeeName" +"\t" + "employeeEmail");
+			System.out.println("=====================================");
+			empList.forEach(employee -> System.out.println(employee.getEmpName() +"\t" + employee.getEmpEmail()));
+
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+
+	}//main close
+
+}

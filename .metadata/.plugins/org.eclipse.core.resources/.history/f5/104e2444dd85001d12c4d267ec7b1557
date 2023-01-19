@@ -1,0 +1,30 @@
+package firstjavaprjct;
+
+import java.util.Scanner;
+
+public class HighestCD {
+
+	public static void main(String[] args) {
+		int a,b,hcd=0;
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter No.1");
+		a=sc.nextInt();
+		System.out.println("Enter No.2");
+		b=sc.nextInt();
+		hcd=findHCD("HCD of"+a+"and"+b+"="+hcd);
+	}
+	public static int findHCD(int a,int b)
+	{
+		while(b!=0)
+		{
+			if(a>b)
+			{
+				a=a-b;
+			}else {
+				b=b-a;
+			}
+		}
+		return a;
+	}
+
+}

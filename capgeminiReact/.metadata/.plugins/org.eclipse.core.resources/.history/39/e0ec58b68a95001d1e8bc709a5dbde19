@@ -1,0 +1,10 @@
+package com.cg.jdbcexample;
+
+public class JDBCInsert {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

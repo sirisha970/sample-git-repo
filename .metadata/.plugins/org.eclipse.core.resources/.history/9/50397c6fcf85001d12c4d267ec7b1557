@@ -1,0 +1,19 @@
+package firstjavaproject;
+
+import java.util.Scanner;
+
+public class TemperatureAlert {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter temperature");
+		int temp = sc.nextInt();
+		if(temperature < 0) {
+			System.out.println("Normal Temperature")
+		}else {
+			System.out.println("Temperature Changed! Be alert");
+		}
+
+	}
+
+}
